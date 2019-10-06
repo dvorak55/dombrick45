@@ -581,4 +581,5 @@ Text GLabel 4625 2325 2    50   Input ~ 0
 COL0
 Text GLabel 4625 2225 2    50   Input ~ 0
 COL1
+NoConn ~ 6750 1475
 $EndSCHEMATC

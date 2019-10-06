@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U1
-U 1 1 5D9215A6
-P 4025 3325
-F 0 "U1" H 4025 1436 50  0000 C CNN
-F 1 "ATmega32U4-AU" H 4025 1345 50  0000 C CNN
-F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4025 3325 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4025 3325 50  0001 C CNN
-	1    4025 3325
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 5D928A50
 P 3925 1350
@@ -573,4 +562,23 @@ Text GLabel 7250 4000 0    50   Input ~ 0
 ROW0
 Text GLabel 7250 4750 0    50   Input ~ 0
 ROW1
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-AU U1
+U 1 1 5D9215A6
+P 4025 3325
+F 0 "U1" H 4025 1436 50  0000 C CNN
+F 1 "ATmega32U4-AU" H 4025 1345 50  0000 C CNN
+F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 4025 3325 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 4025 3325 50  0001 C CNN
+	1    4025 3325
+	1    0    0    -1  
+$EndComp
+Text GLabel 4625 3725 2    50   Input ~ 0
+ROW0
+Text GLabel 4625 2425 2    50   Input ~ 0
+ROW1
+Text GLabel 4625 2325 2    50   Input ~ 0
+COL0
+Text GLabel 4625 2225 2    50   Input ~ 0
+COL1
 $EndSCHEMATC
