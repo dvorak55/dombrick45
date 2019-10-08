@@ -1,2 +1,2 @@
 # dombrick45
- my dvorak 45% keyboard
+Dvorak Oriented Mechanical Breakthough Remakable Interesting Coolest Keyboard
