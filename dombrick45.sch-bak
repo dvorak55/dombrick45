@@ -468,14 +468,6 @@ Text GLabel 3775 1650 0    50   Input ~ 0
 ROW0
 Text GLabel 3875 2325 0    50   Input ~ 0
 ROW1
-Text GLabel 2925 3250 2    50   Input ~ 0
-ROW0
-Text GLabel 2925 1950 2    50   Input ~ 0
-ROW1
-Text GLabel 2925 1850 2    50   Input ~ 0
-COL0
-Text GLabel 2925 1750 2    50   Input ~ 0
-COL1
 NoConn ~ 2125 6200
 Text GLabel 875  2450 0    50   Input ~ 0
 D-

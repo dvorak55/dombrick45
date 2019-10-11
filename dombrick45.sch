@@ -468,14 +468,6 @@ Text GLabel 3775 1650 0    50   Input ~ 0
 ROW0
 Text GLabel 3875 2325 0    50   Input ~ 0
 ROW1
-Text GLabel 2925 3250 2    50   Input ~ 0
-ROW0
-Text GLabel 2925 1950 2    50   Input ~ 0
-ROW1
-Text GLabel 2925 1850 2    50   Input ~ 0
-COL0
-Text GLabel 2925 1750 2    50   Input ~ 0
-COL1
 NoConn ~ 2125 6200
 Text GLabel 875  2450 0    50   Input ~ 0
 D-
@@ -2191,4 +2183,34 @@ Wire Wire Line
 Connection ~ 9650 3475
 Wire Wire Line
 	9200 3675 9650 3675
+Text GLabel 2925 4250 2    50   Input ~ 0
+ROW0
+Text GLabel 2925 4150 2    50   Input ~ 0
+COL6
+Text GLabel 2925 4050 2    50   Input ~ 0
+ROW5
+Text GLabel 2925 3950 2    50   Input ~ 0
+ROW4
+Text GLabel 2925 2350 2    50   Input ~ 0
+ROW1
+Text GLabel 2925 2250 2    50   Input ~ 0
+COL2
+Text GLabel 2925 1950 2    50   Input ~ 0
+COL3
+Text GLabel 2925 1850 2    50   Input ~ 0
+COL4
+Text GLabel 2925 1750 2    50   Input ~ 0
+COL5
+Text GLabel 2925 3250 2    50   Input ~ 0
+ROW2
+Text GLabel 2925 3150 2    50   Input ~ 0
+ROW3
+Text GLabel 2925 2850 2    50   Input ~ 0
+COL1
+Text GLabel 2925 2750 2    50   Input ~ 0
+ROW7
+Text GLabel 2925 2650 2    50   Input ~ 0
+ROW6
+Text GLabel 2925 2550 2    50   Input ~ 0
+COL0
 $EndSCHEMATC
