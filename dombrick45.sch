@@ -1892,7 +1892,7 @@ COL1
 Text GLabel 10950 2150 1    50   Input ~ 0
 COL0
 Text Notes 7025 6900 0    50   ~ 0
-Dombric means \nDvorak Oriented Mechanical\nBreakthough Remakable Interesting\nCoolest Keyboard :)
+Dombrick means \nDvorak Oriented Mechanical\nBreakthough Remakable Interesting\nCoolest Keyboard :)
 Text Notes 6850 4175 0    50   ~ 0
 X
 Text Notes 9225 4175 0    50   ~ 0
@@ -1921,7 +1921,7 @@ U 1 1 5DFAB645
 P 8825 4600
 F 0 "MX44" H 8858 4823 60  0000 C CNN
 F 1 "MX-NoLED" H 8858 4749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers" H 8200 4575 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.75U-Hotswap" H 8200 4575 60  0001 C CNN
 F 3 "" H 8200 4575 60  0001 C CNN
 	1    8825 4600
 	1    0    0    -1  
@@ -2066,7 +2066,7 @@ U 1 1 5DC221A2
 P 8825 5250
 F 0 "MX49" H 8858 5473 60  0000 C CNN
 F 1 "MX-NoLED" H 8858 5399 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6.25U-Hotswap" H 8200 5225 60  0001 C CNN
+F 2 "MX_Only:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 8200 5225 60  0001 C CNN
 F 3 "" H 8200 5225 60  0001 C CNN
 	1    8825 5250
 	1    0    0    -1  
@@ -2443,4 +2443,103 @@ Wire Wire Line
 Connection ~ 2350 6300
 Wire Wire Line
 	2350 6300 2125 6300
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DCE16C5
+P 6600 5425
+F 0 "H1" H 6700 5471 50  0000 L CNN
+F 1 "MountingHole" H 6700 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6600 5425 50  0001 C CNN
+F 3 "~" H 6600 5425 50  0001 C CNN
+	1    6600 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DCE1A14
+P 6825 5425
+F 0 "H2" H 6925 5471 50  0000 L CNN
+F 1 "MountingHole" H 6925 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6825 5425 50  0001 C CNN
+F 3 "~" H 6825 5425 50  0001 C CNN
+	1    6825 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DCE1D28
+P 7075 5425
+F 0 "H3" H 7175 5471 50  0000 L CNN
+F 1 "MountingHole" H 7175 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7075 5425 50  0001 C CNN
+F 3 "~" H 7075 5425 50  0001 C CNN
+	1    7075 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DCE1FD6
+P 7325 5425
+F 0 "H4" H 7425 5471 50  0000 L CNN
+F 1 "MountingHole" H 7425 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7325 5425 50  0001 C CNN
+F 3 "~" H 7325 5425 50  0001 C CNN
+	1    7325 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DCE231D
+P 7575 5425
+F 0 "H5" H 7675 5471 50  0000 L CNN
+F 1 "MountingHole" H 7675 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7575 5425 50  0001 C CNN
+F 3 "~" H 7575 5425 50  0001 C CNN
+	1    7575 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5DCE2598
+P 7850 5425
+F 0 "H6" H 7950 5471 50  0000 L CNN
+F 1 "MountingHole" H 7950 5380 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7850 5425 50  0001 C CNN
+F 3 "~" H 7850 5425 50  0001 C CNN
+	1    7850 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5DCE2989
+P 6675 5650
+F 0 "H7" H 6775 5696 50  0000 L CNN
+F 1 "MountingHole" H 6775 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6675 5650 50  0001 C CNN
+F 3 "~" H 6675 5650 50  0001 C CNN
+	1    6675 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5DCE2D36
+P 6975 5650
+F 0 "H8" H 7075 5696 50  0000 L CNN
+F 1 "MountingHole" H 7075 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6975 5650 50  0001 C CNN
+F 3 "~" H 6975 5650 50  0001 C CNN
+	1    6975 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 5DCE3149
+P 7275 5650
+F 0 "H9" H 7375 5696 50  0000 L CNN
+F 1 "MountingHole" H 7375 5605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7275 5650 50  0001 C CNN
+F 3 "~" H 7275 5650 50  0001 C CNN
+	1    7275 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

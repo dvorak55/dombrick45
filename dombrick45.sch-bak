@@ -1892,7 +1892,7 @@ COL1
 Text GLabel 10950 2150 1    50   Input ~ 0
 COL0
 Text Notes 7025 6900 0    50   ~ 0
-Dombric means \nDvorak Oriented Mechanical\nBreakthough Remakable Interesting\nCoolest Keyboard :)
+Dombrick means \nDvorak Oriented Mechanical\nBreakthough Remakable Interesting\nCoolest Keyboard :)
 Text Notes 6850 4175 0    50   ~ 0
 X
 Text Notes 9225 4175 0    50   ~ 0
@@ -1921,7 +1921,7 @@ U 1 1 5DFAB645
 P 8825 4600
 F 0 "MX44" H 8858 4823 60  0000 C CNN
 F 1 "MX-NoLED" H 8858 4749 20  0000 C CNN
-F 2 "MX_Only:MXOnly-2.75U-Hotswap-ReversedStabilizers" H 8200 4575 60  0001 C CNN
+F 2 "MX_Only:MXOnly-2.75U-Hotswap" H 8200 4575 60  0001 C CNN
 F 3 "" H 8200 4575 60  0001 C CNN
 	1    8825 4600
 	1    0    0    -1  
@@ -2066,7 +2066,7 @@ U 1 1 5DC221A2
 P 8825 5250
 F 0 "MX49" H 8858 5473 60  0000 C CNN
 F 1 "MX-NoLED" H 8858 5399 20  0000 C CNN
-F 2 "MX_Only:MXOnly-6.25U-Hotswap" H 8200 5225 60  0001 C CNN
+F 2 "MX_Only:MXOnly-6.25U-Hotswap-ReversedStabilizers" H 8200 5225 60  0001 C CNN
 F 3 "" H 8200 5225 60  0001 C CNN
 	1    8825 5250
 	1    0    0    -1  
@@ -2274,7 +2274,7 @@ U 1 1 5DB7F801
 P 3875 6425
 F 0 "USB2" H 3708 7222 60  0000 C CNN
 F 1 "HRO-TYPE-C-31-M-12" H 3708 7116 60  0000 C CNN
-F 2 "" H 3875 6425 60  0001 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-Assembly" H 3875 6425 60  0001 C CNN
 F 3 "" H 3875 6425 60  0001 C CNN
 	1    3875 6425
 	1    0    0    -1  
@@ -2341,7 +2341,7 @@ U 1 1 5DCF527A
 P 5300 6900
 F 0 "U2" H 5300 7197 60  0000 C CNN
 F 1 "PRTR5V0U2X" H 5300 7091 60  0000 C CNN
-F 2 "" H 5300 6900 60  0001 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 5300 6900 60  0001 C CNN
 F 3 "" H 5300 6900 60  0001 C CNN
 	1    5300 6900
 	1    0    0    -1  
