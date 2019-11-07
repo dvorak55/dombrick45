@@ -26,11 +26,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB, KC_QUOT, KC_COMM, KC_DOT, KC_P, KC_Y,
         KC_LCTL, KC_A, KC_O, KC_E, KC_U, KC_I,
         KC_LSFT, KC_SCLN, KC_Q, KC_J, KC_K, KC_X,
-        KC_NO, KC_LCMD, MO(1), KC_NO, KC_NO,
+        KC_ESC, KC_LALT, KC_LCMD, MO(1), MO(2),
         KC_BSPC, KC_SLSH, KC_L, KC_R, KC_C, KC_G, KC_F,
         KC_ENT, KC_MINS, KC_S, KC_N, KC_T, KC_H, KC_D,
-        KC_ESC, KC_Z, KC_V, KC_W, KC_M, KC_B,
-        KC_NO, KC_LALT, MO(2), KC_NO, KC_SPC),
+        KC_UP, KC_Z, KC_V, KC_W, KC_M, KC_B,
+        KC_RGHT, KC_DOWN, KC_LEFT, KC_RCMD, KC_SPC),
     LAYOUT( /* layer 1 */
         KC_TILD, KC_EXLM, KC_AT, KC_HASH, KC_DLR, KC_PERC,
         KC_TRNS, KC_F13, KC_F14, KC_F15, KC_F16, KC_MRWD,
@@ -38,8 +38,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_RCBR, KC_LCBR, KC_RPRN, KC_LPRN, KC_ASTR, KC_AMPR, KC_CIRC,
         KC_TRNS, KC_TRNS, KC_VOLU, KC_VOLD, KC_MUTE, KC_MFFD, KC_MPLY,
-        KC_TRNS, KC_PIPE, KC_PLUS, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+        KC_PGUP, KC_PIPE, KC_PLUS, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_END, KC_PGDN, KC_HOME, KC_TRNS, KC_TRNS),
     LAYOUT( /* layer 2 */
         KC_GRV, KC_1, KC_2, KC_3, KC_4, KC_5,
         KC_TRNS, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6,
@@ -47,8 +47,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS,
         KC_RBRC, KC_LBRC, KC_0, KC_9, KC_8, KC_7, KC_6,
         KC_TRNS, KC_F12, KC_F11, KC_F10, KC_F9, KC_F8, KC_F7,
-        KC_TRNS, KC_BSLS, KC_EQL, KC_TRNS, KC_TRNS, KC_TRNS,
-        KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS, KC_TRNS),
+        KC_PGUP, KC_BSLS, KC_EQL, KC_TRNS, KC_TRNS, KC_TRNS,
+        KC_END, KC_PGDN, KC_HOME, KC_TRNS, KC_TRNS),
 };
 
 bool process_record_user(uint16_t keycode, keyrecord_t *record) {
