@@ -44,3 +44,22 @@ Dombrick45はDvorak配列志向の45％キーボードですが、安心して�
 
 ## スイッチ互換性
 Cherry MX互換とALPS(ただし最下段キーはCherry MX互換のみ)
+
+## 写真等
+### 実装例１
+![impl-1.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-1.jpg)
+現在作者が使っているキー配列（48キー） GMK Paperworkを用いてさえ足りないキーキャップがある
+### 実装例２
+![impl-2.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-2.jpg)
+43キーしかない配列。6.25uのスペースバーを使えるようにしたかったんだ。
+ちなみに最下段の両端のキーは取り外して、見えるはずの穴は赤色のプラスチックテープで巧妙に見えなくなっているので違和感が（多分）ないはず
+### 実装例３
+![impl-3.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-3.jpg)
+参考までに。無刻印は味気ない気がした。
+### PCB基板（Ver.1かつJLCPCB版）
+![pcb-jlcpcb.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/pcb-jlcpcb.jpg)
+5枚のみ発注したJLCPCB版。ラーメンが食べたくなるでしょう？
+Ver.1はこの5枚とALLPCBから届いた6枚、計11枚あります。
+### スイッチ実装写真
+![impl-switch.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-switch.jpg)
+右下と左下に赤色のプラスチックテープが貼ってあります。分かるかな〜
