@@ -1,12 +1,13 @@
-# dombrick45 : Dvorak Oriented 45% Keyboard
+# Dombrick45 : Dvorak Oriented 45% Keyboard
 ![Logo](https://github.com/dvorak55/dombrick45/blob/master/log.png)
-dombrick45 is self made dvorak oriented keyboard.
+Dombrick45 is self made dvorak oriented keyboard.  
+Dombrick45はDvorak配列志向の自作キーボードです。
 
-dombrick45はDvorak配列志向の自作キーボードです。
+"Dombrick" stands for Dvorak Oriented Mechanical Breakthough Remakable Interesting Coolest Keyboard (joke  
+Dombrickという名前は「Dvorak志向の革新的で驚くべき大変興味深い最高にクールな機械式キーボード」を表す英単語の頭文字を取って命名しました（笑
 
-dombrick stands for Dvorak Oriented Mechanical Breakthough Remakable Interesting Coolest Keyboard (joke
-
-dombrickは、Dvorak Oriented Mechanical Breakthough Remakable Interesting Coolest Keyboardの頭文字から命名しました（笑
+Actually, "Dombri" means one of a japanese food style bowl, "ck" means nothing.
+嘘です、Dombriはもちろん日本語の丼を意味しており、ckの二文字はバランスを整えるために付けているだけです。
 
 以下、[DescriptionのPDF](https://github.com/dvorak55/dombrick45/blob/master/description.pdf)から抜粋
 
@@ -68,3 +69,29 @@ Ver.1はこの5枚とALLPCBから届いた6枚、計11枚あります。
 ### スイッチ実装写真
 ![impl-switch.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-switch.jpg)
 右下と左下に赤色のプラスチックテープが貼ってあります。分かるかな〜
+
+## Build Guide　ビルドガイド　未完成
+1. 以下にあげた表面実装部品を基板PCBにすべてはんだ付けします。Kitの部品にはすべて部品番号が明示されています。また、PCB基板上のはんだ付けする場所に部品番号が印刷されています。すなわち、部品番号ごとに取り出した部品を、その番号の書かれた場所にはんだ付けすればOKです。ここで実装する部品は、向きが関係無い部品、もしくは向きを間違える心配のない部品です。
+   - コンデンサ 7個
+   - ヒューズ 1個
+   - 抵抗 6個
+   - リセットスイッチ 1個　※4つ足のスイッチ
+   - USB端子 2個　※USB-CとUSB-MiniBの2種類
+   - ESDダイオード 1個　※4つ足の黒い部品　1本だけ足が広い。基板実装箇所でも1箇所だけ足が広い。
+2. MCU 1個と水晶振動子 1個をはんだ付けします。向きに注意。
+   - MCUの○印の位置と、PCB基板上の⚡印の位置が同じになるようにします
+   - 水晶振動子は非常にわかりにくいですが、以下の向きです
+3. 上記部品がはんだ付け終わったら、パソコンとUSBケーブルで接続し、Dombrick45のファームウェアが書き込めるかを確認します。書き込めれば次に進み、書き込めない or 認識されなければ、はんだ付けを修正します。
+4. ダイオードをはんだ付けします。向きはすべて線の書いてある方向が下になるようにします。スペースバーのある方が下、USB-MiniB端子のある方が上です。2個余るはずです（2個は予備です）。
+5. PCBソケットをはんだ付けします。ソケットをPCB基板に差し込んでから、ハンダを付けてください。
+6. 最後にキースイッチをはんだ付けします。
+7. PCBソケットをはんだ付けした最下段にキースイッチを差し込みます。スペースバーのスタビライザーも取り付けます。
+8. シリコンシートを基板のサイズに切り取ります。付属のシリコンシートから基板のサイズ2枚分取れます。これはPCB基板とボトムプレートの間に敷く衝撃吸収材兼絶縁材です。基板サイズのシリコンシートを2枚そのまま重ねるも良し、1枚を3分の2のところで分割し、上は3枚、中央は2枚、下は1枚と階段状にすることでキーボードに若干の角度を付けるも良し。
+9. 基板・シリコンシート・ボトムプレートを重ねます。
+10. それらをモビロンゴムでまとめます。短いモビロンゴムは縦方向、長いモビロンゴムは横方向をとめます。うまくキースイッチの間に入るようにゴムを調整します。短いゴムは4本、長いゴムは2本で足ります。残りは予備です。このゴムは滑り止めにもなっています。
+11. お好きなキーキャップを取り付けます
+12. もし43キーか46キーのキーマップを実装していた場合、最下段両端のキーソケットと穴を隠すために、Kitの袋に貼り付いている赤色のプラスチックテープを適当に切りPCB基板の最下段両端部分を隠すように貼ります。
+13. お好きなUSBケーブルでパソコンに接続します
+14. リセットスイッチが右手小指辺りにあります。リセットスイッチを押すための透明な板をシリコンシートとPCB基板の間に挿入し、リセットスイッチを押してください
+15. リセットスイッチを押したら、ファームウェアを書き込み、動作確認を行う
+15. 
