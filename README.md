@@ -6,7 +6,7 @@ Dombrick45はDvorak配列志向の自作キーボードです。
 "Dombrick" stands for Dvorak Oriented Mechanical Breakthough Remakable Interesting Coolest Keyboard (joke  
 Dombrickという名前は「Dvorak志向の革新的で驚くべき大変興味深い最高にクールな機械式キーボード」を表す英単語の頭文字を取って命名しました（笑
 
-Actually, "Dombri" means one of a japanese food style bowl, "ck" means nothing.
+Actually, "Dombri" means one of a japanese food style bowl, "ck" means nothing.  
 嘘です、Dombriはもちろん日本語の丼を意味しており、ckの二文字はバランスを整えるために付けているだけです。
 
 以下、[DescriptionのPDF](https://github.com/dvorak55/dombrick45/blob/master/description.pdf)から抜粋
