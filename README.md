@@ -70,7 +70,7 @@ Ver.1はこの5枚とALLPCBから届いた6枚、計11枚あります。
 ![impl-switch.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/impl-switch.jpg)
 右下と左下に赤色のプラスチックテープが貼ってあります。分かるかな〜
 
-## Build Guide　ビルドガイド　未完成
+## Build Guide　ビルドガイド
 部品をすべて実装するとこんな感じになります。
 ![bg01.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/bg01.jpg)
 さぁ、あなたの丼を実装する素晴らしい一日をスタートしましょう！
@@ -85,13 +85,14 @@ Ver.1はこの5枚とALLPCBから届いた6枚、計11枚あります。
 - ピンセットがあると最高に便利
 - 導通確認やショート確認のためのテスター
 
+### 実装手順
 1. 以下にあげた表面実装部品を基板PCBにすべてはんだ付けします。Kitの部品にはすべて部品番号が明示されています。また、PCB基板上のはんだ付けする場所に部品番号が印刷されています。すなわち、部品番号ごとに取り出した部品を、その番号の書かれた場所にはんだ付けすればOKです。ここで実装する部品は、向きが関係無い部品、もしくは向きを間違える心配のない部品です。
    - コンデンサ 7個　C1〜C7
    - ヒューズ 1個　F1
    - 抵抗 6個　R1〜R6
    - リセットスイッチ 1個　※4つ足のスイッチ　SW1
    - USB端子 2個　※USB-CとUSB-MiniBの2種類　USB1、USB2
-   - ESDダイオード 1個　※4つ足の黒い部品　1本だけ足が広い。基板実装箇所でも1箇所だけ足が広い。　U2
+   - ESDダイオード 1個　※4つ足の黒い部品　1本だけ足が広い。基板実装箇所でも1箇所だけ足が広い。　U2  
 部品をすべて実装した写真の拡大バージョンです。こちらも参考にしてください↓
 ![bg03.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/bg03.jpg)
 ![bg05.jpg](https://github.com/dvorak55/dombrick45/blob/master/image-ver1/bg05.jpg)
