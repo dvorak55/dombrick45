@@ -22,6 +22,7 @@ Dvorak配列のHEXファイル
 - dombrick45_dvorak-45keys.hex
 - dombrick45_dvorak-46keys.hex
 - dombrick45_dvorak-48keys.hex
+
 QWERTY配列のHEXファイル  
 - dombrick45_qwerty-43keys.hex
 - dombrick45_qwerty-45keys.hex
