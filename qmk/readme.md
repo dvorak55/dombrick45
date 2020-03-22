@@ -30,7 +30,7 @@ QWERTY配列のHEXファイル
 - dombrick45_qwerty-48keys.hex
 ※これ以外のHEXファイルもありますが、それは作者がカスタマイズしたものです。  
 3. QMK Toolboxをパソコンにインストールする  
-サリチル酸氏のサイトが大変分かりやすいので見て下さい。  
+サリチル酸氏のサイトが大変分かりやすいです。感謝。    
 https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox
 4. QMK Toolboxを起動して、Dombrick45の基板をパソコンに接続する
 5. Dombrick45のリセットボタンを押す
@@ -44,7 +44,7 @@ https://salicylic-acid3.hatenablog.com/entry/qmk-toolbox
 1. QMKをパソコンにインストールします。
 2. Dombrick45のキーマップをダウンロードします。
 こちらにあります。  
-https://github.com/dvorak55/dombrick45/tree/master/qmk
+https://github.com/dvorak55/dombrick45/tree/master/qmk/keymaps
 3. 独自のキーマップフォルダを作成し、Dombrick45のキーマップをコピーします
 4. コピーしたキーマップを自分好みに編集します
 5. 編集したら、コマンドラインで make Dombrick45 を実行してHEXファイルを作成します
