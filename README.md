@@ -1,5 +1,5 @@
 # Dombrick45 : Dvorak Oriented 45% Keyboard
-![Logo](https://github.com/dvorak55/dombrick45/blob/master/log.png)
+![Logo](https://github.com/dvorak55/dombrick45/blob/master/logo.png)
 Dombrick45 is self made dvorak oriented keyboard.  
 Dombrick45はDvorak配列志向の自作キーボードです。
 
